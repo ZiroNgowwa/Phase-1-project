@@ -1,4 +1,4 @@
-## EVENT BRITE
+## EVENT FINDER
 
  -By Ziro Ngowwa
 
