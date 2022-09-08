@@ -4,7 +4,7 @@ const ui = new Interface();
 
 
 
-document.getElementById('searchBtn').addEventListener('click', (e) =>{
+document.getElementById('FetchBtn').addEventListener('click', (e) =>{
     e.preventDefault();
 
     
@@ -12,7 +12,7 @@ document.getElementById('searchBtn').addEventListener('click', (e) =>{
 
    
     const category= document.getElementById('listed-categories');
-    const categorySelected = categories.options[categories.selectedIndex].value;
+    const categorySelected = categories.options[category.selectedIndex].value;
 
    
     if(textsearch !== ''){

@@ -5,8 +5,8 @@ class EventBrite{
         
     }
     // Show serach results
-    async getEvents(event, category){
-        const responseEvent = await fetch(`https://www.eventbriteapi.com/v3/events/search/?q=${evento}&sort_by=${this.ordenar}&categories=${categoria}&token=${this.token_auth}`);
+    async getEvents(events, category){
+        const responseEvent = await fetch(`https://www.eventbriteapi.com/v3/events/search/?q=${evento}&sort_by=${this.ordenar}&categories=${category}&token=${this.token_auth}`);
 
         // code wait for event response and send it as json
         const events = await responseEvent.json();

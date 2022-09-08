@@ -12,7 +12,7 @@
 
  -The active link to the webpage is  https://zirongowwa.github.io/Phase-1-project/
 
- ### TECHNOLOGIES
+ ### TECHNOLOGIES USED
 
  -HTML - Used to give structure
 
